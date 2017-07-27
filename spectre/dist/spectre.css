@@ -400,18 +400,18 @@
   text-rendering: optimizeLegibility;
 }
 .fsc a {
-  color: #5764c6;
+  color: #eb0028;
   outline: none;
   text-decoration: none;
 }
 .fsc a:focus {
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
 }
 .fsc a:focus,
 .fsc a:hover,
 .fsc a:active,
 .fsc a.active {
-  color: #3b49af;
+  color: #b8001f;
   text-decoration: underline;
 }
 .fsc h1,
@@ -591,9 +591,9 @@
   -moz-appearance: none;
   appearance: none;
   background: #fff;
-  border: .1rem solid #5764c6;
+  border: .1rem solid #eb0028;
   border-radius: .2rem;
-  color: #5764c6;
+  color: #eb0028;
   cursor: pointer;
   display: inline-block;
   font-size: 1.4rem;
@@ -612,20 +612,20 @@
   white-space: nowrap;
 }
 .fsc .btn:focus {
-  background: #fbfbfe;
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  background: #ffc7d1;
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
   text-decoration: none;
 }
 .fsc .btn:hover {
-  background: #5764c6;
-  border-color: #4c59c2;
+  background: #eb0028;
+  border-color: #dc0025;
   color: #fff;
   text-decoration: none;
 }
 .fsc .btn:active,
 .fsc .btn.active {
-  background: #4c59c2;
-  border-color: #3e4cb6;
+  background: #dc0025;
+  border-color: #c20021;
   color: #fff;
   text-decoration: none;
 }
@@ -637,20 +637,20 @@
   pointer-events: none;
 }
 .fsc .btn.btn-primary {
-  background: #5764c6;
-  border-color: #4c59c2;
+  background: #eb0028;
+  border-color: #dc0025;
   color: #fff;
 }
 .fsc .btn.btn-primary:focus,
 .fsc .btn.btn-primary:hover {
-  background: #4452c0;
-  border-color: #3e4cb6;
+  background: #d20024;
+  border-color: #c20021;
   color: #fff;
 }
 .fsc .btn.btn-primary:active,
 .fsc .btn.btn-primary.active {
-  background: #3f4eba;
-  border-color: #3b49af;
+  background: #c70022;
+  border-color: #b8001f;
   color: #fff;
 }
 .fsc .btn.btn-primary.loading::after {
@@ -660,13 +660,13 @@
 .fsc .btn.btn-link {
   background: transparent;
   border-color: transparent;
-  color: #5764c6;
+  color: #eb0028;
 }
 .fsc .btn.btn-link:focus,
 .fsc .btn.btn-link:hover,
 .fsc .btn.btn-link:active,
 .fsc .btn.btn-link.active {
-  color: #3b49af;
+  color: #b8001f;
 }
 .fsc .btn.btn-sm {
   font-size: 1.2rem;
@@ -783,8 +783,8 @@
   width: 100%;
 }
 .fsc .form-input:focus {
-  border-color: #5764c6;
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  border-color: #eb0028;
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
 }
 .fsc .form-input::-webkit-input-placeholder {
   color: #acb3c2;
@@ -851,8 +851,8 @@ textarea.fsc .form-input {
   padding-right: 2.4rem;
 }
 .fsc .form-select:focus {
-  border-color: #5764c6;
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  border-color: #eb0028;
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
 }
 .fsc .form-select::-ms-expand {
   display: none;
@@ -945,14 +945,14 @@ textarea.fsc .form-input {
 .fsc .form-checkbox input:focus + .form-icon,
 .fsc .form-radio input:focus + .form-icon,
 .fsc .form-switch input:focus + .form-icon {
-  border-color: #5764c6;
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  border-color: #eb0028;
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
 }
 .fsc .form-checkbox input:checked + .form-icon,
 .fsc .form-radio input:checked + .form-icon,
 .fsc .form-switch input:checked + .form-icon {
-  background: #5764c6;
-  border-color: #5764c6;
+  background: #eb0028;
+  border-color: #eb0028;
 }
 .fsc .form-checkbox .form-icon,
 .fsc .form-radio .form-icon,
@@ -999,8 +999,8 @@ textarea.fsc .form-input {
   width: .6rem;
 }
 .fsc .form-checkbox input:indeterminate + .form-icon {
-  background: #5764c6;
-  border-color: #5764c6;
+  background: #eb0028;
+  border-color: #eb0028;
 }
 .fsc .form-checkbox input:indeterminate + .form-icon::before {
   background: #fff;
@@ -1160,7 +1160,7 @@ textarea.fsc .form-input {
   vertical-align: baseline;
 }
 .fsc .label.label-primary {
-  background: #5764c6;
+  background: #eb0028;
   color: #fff;
 }
 .fsc .label.label-success {
@@ -1762,8 +1762,8 @@ textarea.fsc .form-input {
   padding: .1rem 0 0 .1rem;
 }
 .fsc .form-autocomplete .form-autocomplete-input.is-focused {
-  border-color: #5764c6;
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  border-color: #eb0028;
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
 }
 .fsc .form-autocomplete .form-autocomplete-input .form-input {
   border-color: transparent;
@@ -1786,7 +1786,7 @@ textarea.fsc .form-input {
   width: 100%;
 }
 .fsc .avatar {
-  background: #5764c6;
+  background: #eb0028;
   border-radius: 50%;
   color: rgba(255, 255, 255, .85);
   display: inline-block;
@@ -1853,7 +1853,7 @@ textarea.fsc .form-input {
 }
 .fsc .badge[data-badge]::after,
 .fsc .badge:not([data-badge])::after {
-  background: #5764c6;
+  background: #eb0028;
   background-clip: padding-box;
   border-radius: 1rem;
   box-shadow: 0 0 0 .2rem #fff;
@@ -1915,7 +1915,7 @@ textarea.fsc .form-input {
   height: .4rem;
 }
 .fsc .bar .bar-item {
-  background: #5764c6;
+  background: #eb0028;
   color: #fff;
   display: block;
   -ms-flex-negative: 0;
@@ -1953,7 +1953,7 @@ textarea.fsc .form-input {
   z-index: 1;
 }
 .fsc .bar-slider .bar-slider-btn {
-  background: #5764c6;
+  background: #eb0028;
   border: 0;
   border-radius: 50%;
   height: 1.2rem;
@@ -1966,7 +1966,7 @@ textarea.fsc .form-input {
   width: 1.2rem;
 }
 .fsc .bar-slider .bar-slider-btn:active {
-  box-shadow: 0 0 0 .2rem #5764c6;
+  box-shadow: 0 0 0 .2rem #eb0028;
 }
 .fsc .card {
   background: #fff;
@@ -2022,7 +2022,7 @@ textarea.fsc .form-input {
   vertical-align: middle;
 }
 .fsc .chip.active {
-  background: #5764c6;
+  background: #eb0028;
   color: #fff;
 }
 .fsc .chip .avatar {
@@ -2084,12 +2084,12 @@ textarea.fsc .form-input {
 }
 .fsc .menu .menu-item > a:focus,
 .fsc .menu .menu-item > a:hover {
-  color: #5764c6;
+  color: #eb0028;
 }
 .fsc .menu .menu-item > a:active,
 .fsc .menu .menu-item > a.active {
-  background: #fbfbfe;
-  color: #5764c6;
+  background: #ffc7d1;
+  color: #eb0028;
 }
 .fsc .menu .menu-badge {
   float: right;
@@ -2213,12 +2213,12 @@ textarea.fsc .form-input {
 }
 .fsc .tab .tab-item a:focus,
 .fsc .tab .tab-item a:hover {
-  color: #5764c6;
+  color: #eb0028;
 }
 .fsc .tab .tab-item.active a,
 .fsc .tab .tab-item a.active {
-  border-bottom-color: #5764c6;
-  color: #5764c6;
+  border-bottom-color: #eb0028;
+  color: #eb0028;
 }
 .fsc .tab.tab-block .tab-item {
   -ms-flex: 1 0 0;
@@ -2255,7 +2255,7 @@ textarea.fsc .form-input {
 }
 .fsc .pagination .page-item a:focus,
 .fsc .pagination .page-item a:hover {
-  color: #5764c6;
+  color: #eb0028;
 }
 .fsc .pagination .page-item a[disabled],
 .fsc .pagination .page-item a.disabled {
@@ -2264,7 +2264,7 @@ textarea.fsc .form-input {
   pointer-events: none;
 }
 .fsc .pagination .page-item.active a {
-  background: #5764c6;
+  background: #eb0028;
   color: #fff;
 }
 .fsc .pagination .page-item.page-prev,
@@ -2295,14 +2295,14 @@ textarea.fsc .form-input {
 }
 .fsc .nav .nav-item a:focus,
 .fsc .nav .nav-item a:hover {
-  color: #5764c6;
+  color: #eb0028;
 }
 .fsc .nav .nav-item.active > a {
   font-weight: bold;
 }
 .fsc .nav .nav-item.active > a:focus,
 .fsc .nav .nav-item.active > a:hover {
-  color: #5764c6;
+  color: #eb0028;
 }
 .fsc .nav .nav {
   margin-bottom: 1rem;
@@ -2388,7 +2388,7 @@ textarea.fsc .form-input {
   text-align: center;
 }
 .fsc .step .step-item:not(:first-child)::before {
-  background: #5764c6;
+  background: #eb0028;
   content: "";
   height: .2rem;
   left: -50%;
@@ -2403,7 +2403,7 @@ textarea.fsc .form-input {
   text-decoration: none;
 }
 .fsc .step .step-item a::before {
-  background: #5764c6;
+  background: #eb0028;
   border: .2rem solid #fff;
   border-radius: 50%;
   content: "";
@@ -2419,7 +2419,7 @@ textarea.fsc .form-input {
 }
 .fsc .step .step-item.active a::before {
   background: #fff;
-  border: .2rem solid #5764c6;
+  border: .2rem solid #eb0028;
 }
 .fsc .step .step-item.active ~ .step-item::before {
   background: #f0f1f4;
@@ -2482,8 +2482,8 @@ textarea.fsc .form-input {
   width: 100%;
 }
 .fsc .toast.toast-primary {
-  background: rgba(87, 100, 198, .9);
-  border-color: #5764c6;
+  background: rgba(235, 0, 40, .9);
+  border-color: #eb0028;
 }
 .fsc .toast.toast-success {
   background: rgba(50, 182, 67, .9);
@@ -2646,7 +2646,7 @@ textarea.fsc .form-input {
 }
 .fsc .loading::after {
   animation: loading 500ms infinite linear;
-  border: .2rem solid #5764c6;
+  border: .2rem solid #eb0028;
   border-radius: .8rem;
   border-right-color: transparent;
   border-top-color: transparent;

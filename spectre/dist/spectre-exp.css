@@ -84,23 +84,23 @@
   width: 2.8rem;
 }
 .fsc .calendar .calendar-date .date-item.date-today {
-  border-color: #e4e6f6;
-  color: #5764c6;
+  border-color: #ffa9b7;
+  color: #eb0028;
 }
 .fsc .calendar .calendar-date .date-item:focus {
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
 }
 .fsc .calendar .calendar-date .date-item:focus,
 .fsc .calendar .calendar-date .date-item:hover {
-  background: #fbfbfe;
-  border-color: #e4e6f6;
-  color: #5764c6;
+  background: #ffc7d1;
+  border-color: #ffa9b7;
+  color: #eb0028;
   text-decoration: none;
 }
 .fsc .calendar .calendar-date .date-item:active,
 .fsc .calendar .calendar-date .date-item.active {
-  background: #4c59c2;
-  border-color: #3e4cb6;
+  background: #dc0025;
+  border-color: #c20021;
   color: #fff;
 }
 .fsc .calendar .calendar-date .date-item.badge::after {
@@ -122,7 +122,7 @@
   position: relative;
 }
 .fsc .calendar .calendar-range::before {
-  background: #eff1fa;
+  background: #ffb8c4;
   content: "";
   height: 2.8rem;
   left: 0;
@@ -139,7 +139,7 @@
   right: 50%;
 }
 .fsc .calendar .calendar-range .date-item {
-  color: #5764c6;
+  color: #eb0028;
 }
 .fsc .calendar.calendar-lg .calendar-body {
   padding: 0;
@@ -185,9 +185,9 @@
   padding: .5rem;
 }
 .fsc .calendar.calendar-lg .calendar-event {
-  background: #eff1fa;
+  background: #ffb8c4;
   border-radius: .2rem;
-  color: #5764c6;
+  color: #eb0028;
   display: block;
   font-size: 1.2rem;
   margin: .2rem auto;
@@ -434,7 +434,7 @@
 .fsc .filter .filter-tag#tag-roleplaying:checked ~ .filter-nav .chip[for="tag-roleplaying"],
 .fsc .filter .filter-tag#tag-shooter:checked ~ .filter-nav .chip[for="tag-shooter"],
 .fsc .filter .filter-tag#tag-sports:checked ~ .filter-nav .chip[for="tag-sports"] {
-  background: #5764c6;
+  background: #eb0028;
   color: #fff;
 }
 .fsc .filter .filter-tag#tag-action:checked ~ .filter-body .column:not([data-tag~="tag-action"]),
@@ -607,7 +607,7 @@
   background: #f0f1f4;
   border: 0;
   border-radius: .2rem;
-  color: #5764c6;
+  color: #eb0028;
   height: .4rem;
   position: relative;
   width: 100%;
@@ -617,16 +617,16 @@
   border-radius: .2rem;
 }
 .fsc .progress::-webkit-progress-value {
-  background: #5764c6;
+  background: #eb0028;
   border-radius: .2rem;
 }
 .fsc .progress::-moz-progress-bar {
-  background: #5764c6;
+  background: #eb0028;
   border-radius: .2rem;
 }
 .fsc .progress:indeterminate {
   animation: progress-indeterminate 1.5s linear infinite;
-  background: #f0f1f4 linear-gradient(to right, #5764c6 30%, #f0f1f4 30%) top left / 150% 150% no-repeat;
+  background: #f0f1f4 linear-gradient(to right, #eb0028 30%, #f0f1f4 30%) top left / 150% 150% no-repeat;
 }
 .fsc .progress:indeterminate::-moz-progress-bar {
   background: transparent;
@@ -649,12 +649,12 @@
   width: 100%;
 }
 .fsc .slider:focus {
-  box-shadow: 0 0 0 .2rem rgba(87, 100, 198, .15);
+  box-shadow: 0 0 0 .2rem rgba(235, 0, 40, .15);
   outline: none;
 }
 .fsc .slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: #5764c6;
+  background: #eb0028;
   border: 0;
   border-radius: 50%;
   height: 1.2rem;
@@ -663,7 +663,7 @@
   width: 1.2rem;
 }
 .fsc .slider::-moz-range-thumb {
-  background: #5764c6;
+  background: #eb0028;
   border: 0;
   border-radius: 50%;
   height: 1.2rem;
@@ -671,7 +671,7 @@
   width: 1.2rem;
 }
 .fsc .slider::-ms-thumb {
-  background: #5764c6;
+  background: #eb0028;
   border: 0;
   border-radius: 50%;
   height: 1.2rem;
@@ -723,7 +723,7 @@
   width: 100%;
 }
 .fsc .slider::-ms-fill-lower {
-  background: #5764c6;
+  background: #eb0028;
 }
 .fsc .timeline .timeline-item {
   display: flex;
@@ -758,7 +758,7 @@
   width: 2.4rem;
 }
 .fsc .timeline .timeline-item .timeline-icon::before {
-  border: .2rem solid #5764c6;
+  border: .2rem solid #eb0028;
   border-radius: 50%;
   content: "";
   display: block;
@@ -769,7 +769,7 @@
   width: .8rem;
 }
 .fsc .timeline .timeline-item .timeline-icon.icon-lg {
-  background: #5764c6;
+  background: #eb0028;
   font-size: 1.6rem;
   line-height: 2rem;
 }
